@@ -1,0 +1,88 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.background {
+    background-color: rgb(109, 101, 116);
+    height: 100vh;
+    padding-top: 1px;
+}
+
+.tittle {
+    color: cornsilk;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.display {
+    color: rgb(33, 18, 109);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+    background-color: rgb(118, 125, 109);
+}
+
+.tile {
+    border: 1px solid rgb(106, 8, 8);
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    color: rgb(107, 28, 106);
+}
+
+.playerX {
+    color: rgb(241, 88, 32);
+}
+
+.playero {
+    color: rgb(15, 169, 153);
+}
+
+.control {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.control button {
+    color: orange;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.restart {
+    background-color: brown;
+}
+
+#reset {
+    background-color: rgb(9, 125, 138);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px 100px 100px 100px;
+}
